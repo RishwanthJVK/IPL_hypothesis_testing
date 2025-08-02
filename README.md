@@ -6,7 +6,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ## 📁 Dataset Summary
 
-- **Source**: [Kaggle IPL Dataset](https://www.kaggle.com/datasets)
+- **Source**: Kaggle
 - **Size**: 635 matches
 - **Key Variables**: id, season, city, date, team1, team2, toss_winner,
        toss_decision, result, dl_applied, winner, win_by_runs,
@@ -44,9 +44,11 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ## 🧹 Data Cleaning & Feature Engineering
 
-- Handled **missing values** 
+- Handled **missing values**
+- Analysed Duplicates
+- Handled Outliers
+- Handled Mistyped data
 - Encoded categorical variables (Label Encoding, One-Hot Encoding)
-- Standardized team names 
 
 ---
 
@@ -60,8 +62,8 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ## 📈 Hypothesis Testing Results
 
-- Used **Chi-Square Test of Independence** for all hypotheses.
-- **H1**: Rejected — CSK win rate **does** depend on the venue.
+- Used **T-Test** for all hypotheses.
+- **H1**: Not Rejected — CSK win rate **does not** depend on the venue.
 - **H2**: Not rejected — Toss winning does **not significantly** impact match outcome.
 - **H3**: Not rejected — Batting/Fielding first does **not significantly** affect winning.
 
@@ -71,10 +73,8 @@ This project presents a thorough data exploration and statistical analysis of IP
 ## Conclusion & Next Steps
 
 ### Key Takeaways:
-- Venue has a **significant influence** on match outcomes for some teams.
+- Venue doesn not have a **significant influence** on match outcomes.
 - Toss decisions show **limited statistical importance**.
-- Data-driven venue-based strategies can benefit franchises like CSK.
-
 
 
 ## Tools & Libraries
