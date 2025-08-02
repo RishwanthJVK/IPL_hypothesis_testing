@@ -8,11 +8,9 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 - **Source**: [Kaggle IPL Dataset](https://www.kaggle.com/datasets)
 - **Size**: ~636 matches (as of 2019)
-- **Key Variables**:
-  - `team1`, `team2`
-  - `toss_winner`, `toss_decision`
-  - `winner`, `venue`, `city`, `date`
-  - `result`, `win_by_runs`, `win_by_wickets`
+- **Key Variables**: id, season, city, date, team1, team2, toss_winner,
+       toss_decision, result, dl_applied, winner, win_by_runs,
+       win_by_wickets, player_of_match, venue, umpire1, umpire2
 - **Target Variables**:
   - `winner`: Used for outcome analysis
   - `win_by_runs` / `win_by_wickets`: For margin of victory
@@ -32,9 +30,8 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 - Understand match outcomes across years, teams, and venues
 - Analyze toss impact and decision outcomes
-- Visualize distributions and correlations (heatmaps, bar plots, pie charts)
+- Visualize distributions and correlations 
 - Study venue-wise win patterns
-- Engineer new features: `home_team_advantage`, `match_decider_type`
 
 ---
 
@@ -43,13 +40,8 @@ This project presents a thorough data exploration and statistical analysis of IP
 - Most successful teams and venues
 - Influence of toss on match outcomes
 - Preferred decisions after toss
-- Victory margins (runs vs wickets)
-- CSK-specific performance trends
 - Home ground advantage patterns
 
-> 📷 Visualizations included: bar plots, count plots, boxplots, heatmaps, pie charts.
-
----
 
 ## 🧹 Data Cleaning & Feature Engineering
 
