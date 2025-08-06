@@ -7,7 +7,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 ##  Dataset Summary
 
 - **Source**: Kaggle
-- **Size**: 635 matches
+- **Size**: 635 rows x 17 columns
 - **Key Variables**: id, season, city, date, team1, team2, toss_winner,
        toss_decision, result, dl_applied, winner, win_by_runs,
        win_by_wickets, player_of_match, venue, umpire1, umpire2
