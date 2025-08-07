@@ -1,13 +1,13 @@
-# 🏏 IPL Data Analysis & Hypothesis Testing
+#  IPL Data Analysis & Hypothesis Testing
 
 This project presents a thorough data exploration and statistical analysis of IPL (Indian Premier League) match data. It focuses on uncovering insights, testing relevant hypotheses, and providing actionable interpretations through data visualization and statistical significance testing.
 
 ---
 
-## 📁 Dataset Summary
+##  Dataset Summary
 
 - **Source**: Kaggle
-- **Size**: 635 matches
+- **Size**: 635 rows x 17 columns
 - **Key Variables**: id, season, city, date, team1, team2, toss_winner,
        toss_decision, result, dl_applied, winner, win_by_runs,
        win_by_wickets, player_of_match, venue, umpire1, umpire2
@@ -16,7 +16,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ---
 
-## 📌 Project Objectives
+##  Project Objectives
 
 1. Perform **data cleaning** and **feature engineering**
 2. Conduct **exploratory data analysis (EDA)** to identify patterns
@@ -25,7 +25,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ---
 
-## 🔎 Data Exploration Plan
+##  Data Exploration Plan
 
 - Understand match outcomes across years, teams, and venues
 - Analyze toss impact and decision outcomes
@@ -34,7 +34,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 - Most successful teams and venues
 - Influence of toss on match outcomes
@@ -42,7 +42,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 - Home ground advantage patterns
 
 
-## 🧹 Data Cleaning & Feature Engineering
+##  Data Cleaning & Feature Engineering
 
 - Handled **missing values**
 - Analysed Duplicates
@@ -52,7 +52,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ---
 
-## ✅ Hypotheses Tested
+##  Hypotheses Tested
 
 1. **H1**: CSK's victory is independent of the venue  
 2. **H2**: Winning the match is independent of winning the toss  
@@ -60,7 +60,7 @@ This project presents a thorough data exploration and statistical analysis of IP
 
 ---
 
-## 📈 Hypothesis Testing Results
+##  Hypothesis Testing Results
 
 - Used **T-Test** for all hypotheses.
 - **H1**: Not Rejected — CSK win rate **does not** depend on the venue.
